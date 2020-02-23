@@ -1,1 +1,511 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+.header{
+    /* Style for "Header" */
+width: 1020px;
+height: 89px;
+background-color: #2d303a;
+    background-image: url(images/Header.png);
+}
+.logo{
+    /* Style for "SINGOLO*" */
+    padding-top: 34px;
+    padding-left: 40px;
+width: 115px;
+height: 20px;
+color: #ffffff;
+font-family: Lato;
+font-size: 25px;
+font-weight: 700;
+line-height: 6.32px;
+text-transform: uppercase;
+font-family: Lato;
 
+
+
+}
+.star{
+    color: #f06c64;
+    position: absolute;
+}
+.list {
+    
+        font-size: 8.657px;
+        font-family: "Lato";
+        color:#e3e3e5;
+        font-weight: bold;
+        line-height: 0.527;
+        text-align: justifyLeft;
+        -moz-transform: matrix( 1.3468753916099,0,0,1.3862334687077,0,0);
+        -webkit-transform: matrix( 1.3468753916099,0,0,1.3862334687077,0,0);
+        -ms-transform: matrix( 1.3468753916099,0,0,1.3862334687077,0,0);
+        position: absolute;
+        left: 666.512px;
+        top: 47.219px;
+        z-index: 82;
+    /*width: 342,79px;
+    height: 13,04px;
+    font-family: "Lato";
+    color:#e3e3e5;
+    font-weight: bold;
+    line-height: 0.527;
+    text-align: justifyLeft;
+    font-size: 8.657px;
+    -moz-transform: matrix( 1.3468753916099,0,0,1.3862334687077,0,0);
+    -webkit-transform: matrix( 1.3468753916099,0,0,1.3862334687077,0,0);
+    -ms-transform: matrix( 1.3468753916099,0,0,1.3862334687077,0,0);
+    position: absolute;
+    left: 609px;
+    top: 43px;*/
+    
+}
+.main_bar{
+    color: rgb(240, 108, 100);
+}
+li{
+    display: inline;    
+    padding-right: 14px;
+    cursor: pointer;
+}
+.header-bottom{
+    margin-top: 35px;
+    height: 6px;
+    background-image: url(images/Header\ Bottom.png);
+}
+.Main{
+    height: 600px;
+    width: 1020px;
+    background-image: url(images/Bg.png);
+}
+.base_vertical {
+  background-image: url(images/Base_vertical.png);
+  position: absolute;
+  left: 112px;
+  top: 148px;
+  width: 215px;
+  height: 458px;
+  z-index: 48;
+}
+.Layer_5_vertical{
+  
+  background-image: url(images/Layer\ 5_vertical.png);
+  position: absolute;
+  left: 11px;
+  top: 63px;
+  width: 194px;
+  height: 339px;
+  z-index: 50;
+  
+  
+}
+.Square_vertical {
+  background-image: url(images/Square.png);
+  position: absolute;
+  left: 99px;
+  top: 421px;
+  width: 17px;
+  height: 17px;
+  z-index: 54;
+}
+.Circle_vertical {
+  background-image: url(images/Circle.png);
+  position: absolute;
+  left: 86px;
+  top: 408px;
+  width: 43px;
+  height: 43px;
+  z-index: 53;
+}
+.Speaker_vertical {
+  background-image: url(images/Speaker_vertical.png);
+  position: absolute;
+  left: 90px;
+  top: 36px;
+  width: 36px;
+  height: 5px;
+  z-index: 51;
+}
+.red_dot_vertical {
+  background-image: url(images/Red\ Dot.png);
+  position: absolute;
+  left: 105px;
+  top: 19px;
+  width: 5px;
+  height: 5px;
+  z-index: 58;
+}
+.Outer_Circle_vertical {
+  background-image: url(images/Outer\ Circle.png);
+  position: absolute;
+  left: 102px;
+  top: 16px;
+  width: 10px;
+  height: 10px;
+  z-index: 57;
+}
+.Shadow_vertical {
+  background-image: url(images/Shadow_vertical.png);
+  
+  position: absolute;
+  left: 112px;
+  top: 148px;
+  width: 240px;
+  height: 483px;
+  z-index: 47;
+}
+
+
+
+
+
+.base_horizontal{
+     
+        background-image: url(images/Base.png);
+        position: absolute;
+        left: 425px;
+        top: 269px;
+        width: 458px;
+        height: 215px;
+        z-index: 63;
+        
+      
+      
+}
+    .red_dot {
+        background-image: url(images/Red\ Dot.png);
+        position: absolute;
+        left: 860px;
+        top: 374px;
+        width: 5px;
+        height: 5px;
+        z-index: 73;
+        
+      }
+      .Outer_Circle {
+        background-image: url(images/Outer\ Circle.png);
+        position: absolute;
+        left: 857px;
+        top: 371px;
+        width: 10px;
+        height: 10px;
+        z-index: 72;
+        
+      }
+      
+      
+      
+      .Speaker {
+       
+        position: absolute;
+        left: 842px;
+        top: 359px;
+        width: 5px;
+        height: 36px;
+        z-index: 66;
+      }
+      .Layer_5 {
+        background-image: url(images/Layer\ 5.png);
+        position: absolute;
+       left: 57px;
+       top: 11px;
+        width: 339px;
+        height: 194px;
+        z-index: 65;
+      }
+      .Square {
+        background-image: url(images/Square.png);
+        position: absolute;
+        left: 21px;
+        top: 99px;
+        width: 17px;
+        height: 17px;
+        z-index: 69;
+      }
+      .Circle {
+        background-image: url(images/Circle.png);
+        position: absolute;
+        left: 8px;
+        top: 86px;
+        width: 43px;
+        height: 43px;
+        z-index: 68;
+      }
+      .Shadow {
+        background-image: url(images/Shadow.png);
+        position: absolute;
+        /*opacity: 0.149;*/
+        left: 426px;
+        top: 269px;
+        width: 483px;
+        height: 240px;
+        z-index: 60;
+      }
+      .bg_bottom {
+        background-color: #ea676b;
+        position: absolute;
+        left: 8px;
+        top: 714px;
+        width: 1020px;
+        height: 6px;
+        z-index: 44;
+      }
+      .background_footer {
+        background-image: url(images/Bg_footer.png);
+        position: absolute;
+        left: 8px;
+        top: 720px;
+        width: 1020px;
+        height: 496px;
+        z-index: 2;
+      }
+      .Our_Services {
+        font-size: 7.661px;
+        font-family: "Lato";
+        color: rgb(102, 109, 137);
+        line-height: 0.595;
+        text-align: justifyLeft;
+        font-weight: bold;
+        -moz-transform: matrix( 3.86617127892397,0,0,3.91592689218659,0,0);
+        -webkit-transform: matrix( 3.86617127892397,0,0,3.91592689218659,0,0);
+        -ms-transform: matrix( 3.86617127892397,0,0,3.91592689218659,0,0);
+        position: absolute;
+        left: 110px;
+        top: 67px;
+        z-index: 41;
+      }
+      .Fusce_dapibus__tellus_ac_cursus_commodo__tortor {
+        font-size: 18px;
+        font-family: "Lato";
+        color: rgb(118, 126, 158);
+        line-height: 1.667;
+        text-align: justifyLeft;
+        position: absolute;
+        left: 48px;
+        top: 104px;
+        width: 939px;
+        height: 47px;
+        z-index: 40;
+      }
+      .container{
+        display: flex;
+        position: absolute;
+        left: 46px;
+        top: 221px;
+        
+      }
+      .element{
+        display: flex;
+        width: 300px;
+        height: 84px;
+        padding-right: 20px;
+      }
+      .pen{
+        background-image: url(images/pen.png);
+        position: absolute;
+        display: flex;
+          left: 14px;
+          top: 14px;
+          width: 32px;
+          height: 32px;
+          z-index: 37;
+      
+        
+      }
+      .ellipse {
+        background-image: url(images/Ellipse.png);
+        display: flex;
+        position: absolute;
+        
+        width: 59px;
+        height: 59px;
+        z-index: 38;
+      }
+      .Custom_Design {
+        font-weight: bold;
+        display: flex;
+        font-size: 18px;
+        font-family: "Lato";
+        color: rgb(102, 109, 137);
+        line-height: 0.992;
+        text-align: justifyLeft;
+        margin-top: 0px;
+        margin-left: 80px;
+        position: absolute;
+        z-index: 35;
+      }
+      .Curabitur_vestibulum_eget_mauris_quis_laoreet__ {
+        font-size: 12px;
+        font-family: "Lato";
+        color: rgb(118, 126, 158);
+        line-height: 1.797;
+        text-align: justify;
+        
+        margin-left: 80px;
+        margin-top: 33px;
+        margin-bottom: 0px;
+        width: 220px;
+        height: 54px;
+        z-index: 36;
+      }
+      
+      .bulb {
+        background-image: url(images/bulb.png);
+        
+        margin-left: 18px;
+        margin-top: 13px;
+        width: 22px;
+        height: 32px;
+        z-index: 31;
+      }
+      .Inovative_Ideas {
+        position: absolute;
+        font-size: 18px;
+        font-family: "Lato";
+        color: rgb(102, 109, 137);
+        line-height: 0.992;
+        text-align: justifyLeft;
+        margin-top: 0px;
+        margin-left: 80px;
+        z-index: 35;
+      }
+      .Quisque_luctus__quam_eget_molestie_commodo__lac{
+        font-size: 12px;
+        font-family: "Lato";
+        color: rgb(118, 126, 158);
+        line-height: 1.797;
+        text-align: justify;
+        
+        margin-left: 40px;
+        margin-top: 33px;
+        margin-bottom: 0px;
+        width: 220px;
+        height: 54px;
+        z-index: 36;
+      }
+      .heart {
+        background-image: url(images/heart.png);
+        margin-left: 14px;
+        margin-top: 16px;
+        width: 32px;
+        height: 28px;
+        z-index: 25;
+      }
+      .Love_Is_The_Answer{
+        display: flex;
+        position: absolute;
+        font-size: 18px;
+        font-family: "Lato";
+        color: rgb(102, 109, 137);
+        line-height: 0.992;
+        text-align: justifyLeft;
+        margin-top: 0px;
+        margin-left: 80px;
+        z-index: 35;
+      }
+      .Nulla_sed_nunc_et_tortor_luctus_faucibus__Morbi
+      {
+        font-size: 12px;
+        font-family: "Lato";
+        color: rgb(118, 126, 158);
+        line-height: 1.797;
+        text-align: justify;
+        
+        margin-left: 35px;
+        margin-top: 33px;
+        margin-bottom: 0px;
+        width: 220px;
+        height: 54px;
+        z-index: 36;
+      }
+      .container_2{
+        display: flex;
+        position: absolute;
+        left: 46px;
+        top: 350px;
+      }
+      .phone {
+        background-image: url(images/phone.png);
+        margin-left: 19px;
+        margin-top: 14px;
+        width: 22px;
+        height: 32px;
+        z-index: 19;
+      }
+      .Custom{
+        font-size: 12px;
+        font-family: "Lato";
+        color: rgb(118, 126, 158);
+        line-height: 1.797;
+        text-align: justify;
+        
+        margin-left: 39px;
+        margin-top: 33px;
+        margin-bottom: 0px;
+        width: 220px;
+        height: 54px;
+        z-index: 36;
+      }
+      .bubble {
+        background-image: url(images/bubble.png);
+        margin-left: 14px;
+        margin-top: 16px;
+        width: 32px;
+        height: 28px;
+        z-index: 13;
+      }
+      .Custom_2{
+        font-size: 12px;
+        font-family: "Lato";
+        color: rgb(118, 126, 158);
+        line-height: 1.797;
+        text-align: justify;
+        
+        margin-left: 34px;
+        margin-top: 33px;
+        margin-bottom: 0px;
+        width: 220px;
+        height: 54px;
+        z-index: 36;
+      }
+      .star1 {
+        background-image: url(images/star.png);
+        margin-left: 14px;
+        margin-top: 14px;
+        width: 32px;
+        height: 31px;
+        z-index: 7;
+      }
+      .Custom_3{
+        font-size: 12px;
+        font-family: "Lato";
+        color: rgb(118, 126, 158);
+        line-height: 1.797;
+        text-align: justify;
+        
+        margin-left: 34px;
+        margin-top: 33px;
+        margin-bottom: 0px;
+        width: 220px;
+        height: 54px;
+        z-index: 36;
+      }
+      .chev{
+        
+          background-image: url(images/chev.png);
+          position: absolute;
+          left: 42px;
+          top: 376px;
+          width: 16px;
+          height: 27px;
+          z-index: 77;
+        
+        
+      }
+      .chev_p {
+        background-image: url(images/chev_p.png);
+        position: absolute;
+        left: 964px;
+        top: 376px;
+        width: 16px;
+        height: 27px;
+        z-index: 76;
+      }
